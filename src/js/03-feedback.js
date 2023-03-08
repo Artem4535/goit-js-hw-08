@@ -7,7 +7,7 @@ let textareaRef = document.querySelector('.feedback-form');
 formRef.addEventListener('input', throttle(inputValue, 500));
 formRef.addEventListener('submit', onButtonSubmitClick);
 
-const formData = {}
+let formData = {}
 initForm();
 function inputValue(e) {
     e.preventDefault();
