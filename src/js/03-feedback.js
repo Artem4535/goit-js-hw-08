@@ -35,4 +35,5 @@ function onButtonSubmitClick(e) {
     console.log(formData)
     e.target.reset()
     localStorage.clear("feedback-form-state")
+    formData = {}
 }
